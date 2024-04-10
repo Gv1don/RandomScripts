@@ -1,2 +1,2 @@
 # RandomScripts
-Just random scripts dude
+Just a random scripts dude

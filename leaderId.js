@@ -44,11 +44,23 @@ function openNextLink() {
                                                 newTab.close();
                                             }, 1000);
                                         }
+                                        else{
+                                            newTab.close();
+                                        }
                                     }, 1000);
+                                }
+                                else{
+                                    newTab.close();
                                 }
                             }, 1000);
                         }
+                        else{
+                            newTab.close();
+                        }
                     }, 1000);
+                }
+                else{
+                    newTab.close();
                 }
             };
         }

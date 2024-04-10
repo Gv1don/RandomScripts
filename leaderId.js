@@ -1,3 +1,6 @@
+//Надо быть залогиненым само собой, с заполненными данными, которые запрашиваются при записи на сам Акселератор
+//Запускать скрипт надо со страницы https://leader-id.ru/events/496769, то есть записи на Акселератор
+
 var regex = new RegExp('^https://leader-id\\.ru/events/49\\d{4}$');
 
 var links = document.querySelectorAll('.app-editor-paragraph a[href]');
